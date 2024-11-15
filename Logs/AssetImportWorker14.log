@@ -1,0 +1,741 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.43f1 (85497d293fa1) revision 8735101'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32475 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+C:/Users/Steven Lie/UAS
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+58974
+Successfully changed project path to: C:/Users/Steven Lie/UAS
+C:/Users/Steven Lie/UAS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43044]  Target information:
+
+Player connection [43044]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1087094494 [EditorId] 1087094494 [Version] 1048832 [Id] WindowsEditor(7,Steven-Lie) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [43044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 6.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Steven Lie/UAS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007316 seconds.
+- Loaded All Assemblies, in  0.276 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.192 seconds
+Domain Reload Profiling: 467ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (192ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1057ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3605 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (315.6 KB). Loaded Objects now: 4104.
+Memory consumption went from 147.7 MB to 147.4 MB.
+Total: 3.955700 ms (FindLiveObjects: 0.270800 ms CreateObjectMapping: 0.139900 ms MarkObjects: 3.435600 ms  DeleteObjects: 0.107600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AnimasiIdleMC.cs: 468f843fb3668c4b968f633f7fafb93b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 511300.223012 seconds.
+  path: Assets/FantasyEnvironments/Environments/Scenes/DemoScene.unity
+  artifactKey: Guid(87ce07c59e66310498edef58e1f1d1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Scenes/DemoScene.unity using Guid(87ce07c59e66310498edef58e1f1d1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b44f5e2bccca47206638ceffc3022a30') in 0.079681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FantasyEnvironments/Environments/Prefabs/Mushroom3.prefab
+  artifactKey: Guid(1ceaf06647257394f8d75a1759c6be00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Prefabs/Mushroom3.prefab using Guid(1ceaf06647257394f8d75a1759c6be00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fa087b3ed1b04c483f39cd6ec53d83bb') in 0.078579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_hair_m.mat
+  artifactKey: Guid(9db64f59438bddf4fa3a1e4514aa10f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_hair_m.mat using Guid(9db64f59438bddf4fa3a1e4514aa10f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '25dc0098976fbdf09481f9961866b705') in 0.072562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_eye_c.png
+  artifactKey: Guid(1268dd8f8ea75114b92b482aa2d01c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Textures/pico_chan_chr_pico_00_eye_c.png using Guid(1268dd8f8ea75114b92b482aa2d01c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '518212440813e71c2065fd7d75b203b8') in 0.051957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FantasyEnvironments/Environments/Prefabs/Rock1.prefab
+  artifactKey: Guid(c07f24e35f07ce74ba43afa35d48adf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Prefabs/Rock1.prefab using Guid(c07f24e35f07ce74ba43afa35d48adf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '79fe069289b7d5ff2f7f23470a26eb15') in 0.029640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FantasyEnvironments/Environments/Prefabs/Plant1.prefab
+  artifactKey: Guid(b33ce8376149eb040be6057eed2bd12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Prefabs/Plant1.prefab using Guid(b33ce8376149eb040be6057eed2bd12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6702e1afa4388d4a0ab77a7758208751') in 0.019917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/Plant.tga
+  artifactKey: Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Textures/Plant.tga using Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a401afc70e4841fe9bb0b24503ed1726') in 0.032024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/ground_stones.png
+  artifactKey: Guid(cda6ec74e3a3f3f49840fe742aa14b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Textures/ground_stones.png using Guid(cda6ec74e3a3f3f49840fe742aa14b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e1c080234899e7a4d905b8270540af6e') in 0.028462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png
+  artifactKey: Guid(a64d2362d418d194f91274685fb10faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png using Guid(a64d2362d418d194f91274685fb10faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a26b7e8b5f75bfe68fc9fe76997053c9') in 0.026836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FantasyEnvironments/Environments/Prefabs/Mushroom4.prefab
+  artifactKey: Guid(f8b92e99d9eca054e95b618e5ed82ea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Prefabs/Mushroom4.prefab using Guid(f8b92e99d9eca054e95b618e5ed82ea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1e7f6ec2bd3d50b0ac8d10b2e9e314cc') in 0.023876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat
+  artifactKey: Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat using Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1a6116b08266f15b4f527b1589004663') in 0.013650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Picola/PicoChan/Materials/pico_clothes_m.mat
+  artifactKey: Guid(c09f00b9fc06ea7478baf60cd314e58c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Picola/PicoChan/Materials/pico_clothes_m.mat using Guid(c09f00b9fc06ea7478baf60cd314e58c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1b769237e51afe0b4526b5998e1052ec') in 0.047341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FantasyEnvironments/Environments/Textures/ground_grass.png
+  artifactKey: Guid(628604a32b6055547b71da3d7df38a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Textures/ground_grass.png using Guid(628604a32b6055547b71da3d7df38a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1765336e8b4ca5a415d40a989c85ae70') in 0.018997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png
+  artifactKey: Guid(6b1d9786203d21246bc448213b0f9aed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png using Guid(6b1d9786203d21246bc448213b0f9aed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd7463e267dbcd5a12ac0db6937aa99a8') in 0.016615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png
+  artifactKey: Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png using Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '25230a805cf876b8886929390b90c2e1') in 0.019891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.030560 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx
+  artifactKey: Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx using Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cdc0acb524be7ce2b49c158a4f2768c8') in 0.034510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Food_apple.fbx
+  artifactKey: Guid(8354f705ce0cd0f488de350ceb2a6e5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Food_apple.fbx using Guid(8354f705ce0cd0f488de350ceb2a6e5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '796da9babc971fcb688b3f969d5e320f') in 0.033114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat
+  artifactKey: Guid(6b7cbd10b1b54624aad174204ed5e57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat using Guid(6b7cbd10b1b54624aad174204ed5e57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '769f1c8bc66deb8f10205d5b1f9087aa') in 0.012951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_book2.fbx
+  artifactKey: Guid(11c405db34ad4d84cb92f310f1950d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_book2.fbx using Guid(11c405db34ad4d84cb92f310f1950d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0d3063c59a347a2713f9f6ef5a7f6192') in 0.029372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Food_plate.fbx
+  artifactKey: Guid(4a6b0185ae19ecd4d8ba4238c1d67e03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Food_plate.fbx using Guid(4a6b0185ae19ecd4d8ba4238c1d67e03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '85becf812f27d024a27111f25cd2d212') in 0.028313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat
+  artifactKey: Guid(413a94560e540a34b8e573686225293f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat using Guid(413a94560e540a34b8e573686225293f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '67d8edf5946d8b918cae7c7252289b2f') in 0.016627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark2.png
+  artifactKey: Guid(a7594554ddcd360429d561f0eb906386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark2.png using Guid(a7594554ddcd360429d561f0eb906386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cd43c6a3e1e0d688c9ddfc47451e4b77') in 0.018023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Willow_tree2.fbx
+  artifactKey: Guid(dab68bb983131fc4399b0dc71187b976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Willow_tree2.fbx using Guid(dab68bb983131fc4399b0dc71187b976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6864d47fec04f219f930bed98964dd08') in 0.017185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree3.fbx
+  artifactKey: Guid(95e30b3d340bc2b43b08db538d847c0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree3.fbx using Guid(95e30b3d340bc2b43b08db538d847c0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8eb87a12c08e52e5366976c564cc7d03') in 0.019942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx
+  artifactKey: Guid(dd14be9e07184b94b8a8d774476f74a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx using Guid(dd14be9e07184b94b8a8d774476f74a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8ddf3cfc6d7dc41230d847163f5f898b') in 0.017422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark1.png
+  artifactKey: Guid(8c00b22648d9f3b4ab7eb8a3e41d57a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark1.png using Guid(8c00b22648d9f3b4ab7eb8a3e41d57a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6cc03e71c9317bc40596b2a3c68fe28e') in 0.023770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Pine_tree2.prefab
+  artifactKey: Guid(f86a19e11c6b9734ba52832ec45ee16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Pine_tree2.prefab using Guid(f86a19e11c6b9734ba52832ec45ee16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6f57e651757aa9860a4adb4330e1185d') in 0.019280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_bark.png
+  artifactKey: Guid(1638877f09625b341a06f2872806b8bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_bark.png using Guid(1638877f09625b341a06f2872806b8bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3876a710d08ce38f8fba01e7c71c0f92') in 0.018628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Food_bread_1.fbx
+  artifactKey: Guid(b09d81ca300cb164eaafdabb28ebad28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Food_bread_1.fbx using Guid(b09d81ca300cb164eaafdabb28ebad28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9fb0c878939350ef6a420e37b1b1e369') in 0.027828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_candlestick1.fbx
+  artifactKey: Guid(05644e4f8dbba0d41bce7eda716c63d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_candlestick1.fbx using Guid(05644e4f8dbba0d41bce7eda716c63d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9a62d170f94d9f358a64b42866a2787b') in 0.028744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Food_cup1.fbx
+  artifactKey: Guid(cb063e835546c0349906488c5789719b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Food_cup1.fbx using Guid(cb063e835546c0349906488c5789719b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ac2a88fe78864cf7bdfceba0d68574ac') in 0.030294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Pine_tree1.prefab
+  artifactKey: Guid(b68302d21e7061f4fb52903649a610f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Pine_tree1.prefab using Guid(b68302d21e7061f4fb52903649a610f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5d69b7b010b52144666ff43456831035') in 0.019563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.097438 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_cupboard1.fbx
+  artifactKey: Guid(c08ab2844408b4e46a5c491fc7db19af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_cupboard1.fbx using Guid(c08ab2844408b4e46a5c491fc7db19af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '58474c850014855d496eb151e71e9d28') in 0.030516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_cup1.prefab
+  artifactKey: Guid(10a31ba8783d590419d60e1a150a90d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_cup1.prefab using Guid(10a31ba8783d590419d60e1a150a90d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd06179a120282d98a3106c42441ca6de') in 0.023023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_chair4.prefab
+  artifactKey: Guid(d83e98c017dc464479061248f3af7328) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_chair4.prefab using Guid(d83e98c017dc464479061248f3af7328) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eb0dfc5ff98d9007bdc479baf47a9d08') in 0.028839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_Towers.fbx
+  artifactKey: Guid(45202b2b47db4734ba9604ee5c33d398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_Towers.fbx using Guid(45202b2b47db4734ba9604ee5c33d398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2367b82ac4842764b52bfac526118d2d') in 0.035786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_Entrace.fbx
+  artifactKey: Guid(d3f1ef51adbfaf942af8c9f8bb05ae94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_Entrace.fbx using Guid(d3f1ef51adbfaf942af8c9f8bb05ae94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e23c182ad52aedaad0895f3769684836') in 0.030232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Windmill_doorL.fbx
+  artifactKey: Guid(6726c4cfe0b442e4f81d586e254e75bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Windmill_doorL.fbx using Guid(6726c4cfe0b442e4f81d586e254e75bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f7ae76832cea56622c8546de9d9bad7e') in 0.030750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_elixir3.prefab
+  artifactKey: Guid(789d37e00975295428b2c0a115bb1294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_elixir3.prefab using Guid(789d37e00975295428b2c0a115bb1294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dcca7ee7cfdf080a65684b4fa9d046db') in 0.034395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Tavern_doorR.fbx
+  artifactKey: Guid(055b0f4ce82a7e5418265a3504fa3fe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Tavern_doorR.fbx using Guid(055b0f4ce82a7e5418265a3504fa3fe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b1814a2e2817cec5849bec608d68d1ea') in 0.030355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Wall_entrance.fbx
+  artifactKey: Guid(46b9fcbbf64e02b4f9976ce6c78c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Wall_entrance.fbx using Guid(46b9fcbbf64e02b4f9976ce6c78c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '796933d02770798ce5cf0edafb0d5f22') in 0.030801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_scroll.prefab
+  artifactKey: Guid(77869ebfddd0f8047b4860ea9e5f241e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_scroll.prefab using Guid(77869ebfddd0f8047b4860ea9e5f241e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c26f1b0957fd7f9aa47a3a8f001057c9') in 0.028633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_bottle4.prefab
+  artifactKey: Guid(72b88d1023c0ad847af2e3eeec4b7d5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_bottle4.prefab using Guid(72b88d1023c0ad847af2e3eeec4b7d5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '89aafe75540781511d7876cea433ba67') in 0.027870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_chicken.prefab
+  artifactKey: Guid(12c2885c9d0abc6419d8f0e715bf925a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_chicken.prefab using Guid(12c2885c9d0abc6419d8f0e715bf925a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ffb5c84c46406e28c8c33c5f52ae2c95') in 0.024342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Tavern_interior_curtain.fbx
+  artifactKey: Guid(6ce7322ae80eb63428f80c8ba361af7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Tavern_interior_curtain.fbx using Guid(6ce7322ae80eb63428f80c8ba361af7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4f1024a15cf322656460a6c64bee5b24') in 0.024621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Materials/Furniture.mat
+  artifactKey: Guid(c35490559be99f949be7aa3e97690aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Materials/Furniture.mat using Guid(c35490559be99f949be7aa3e97690aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6f49a3a8ec187a19aa6914e92f5def16') in 0.027658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_GateR.fbx
+  artifactKey: Guid(418b7c2096ea79d44ba67c1c45be6f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_GateR.fbx using Guid(418b7c2096ea79d44ba67c1c45be6f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ddb2cdd95aacde47bf4fdbc14fea28b7') in 0.028208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_TowerCorner.fbx
+  artifactKey: Guid(67278792b8d14344aa2c62f94d99987a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/WoodenWall_TowerCorner.fbx using Guid(67278792b8d14344aa2c62f94d99987a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b59e913778ba533a6ace87eb934ba988') in 0.028205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_tablecloth.fbx
+  artifactKey: Guid(6fe7ab47c59f26b4db2429e8fc958743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Furniture_tablecloth.fbx using Guid(6fe7ab47c59f26b4db2429e8fc958743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ed57818709419ec9a143e721b4ac031a') in 0.019608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_jug_small.prefab
+  artifactKey: Guid(8ce6d858b0b6faf49a9aeb8265f3f5b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_jug_small.prefab using Guid(8ce6d858b0b6faf49a9aeb8265f3f5b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '86350c1dc3477ef63c8fbcb318a1d4fd') in 0.027445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Entrace.prefab
+  artifactKey: Guid(9000e31c84559634b8f9ce44b2636f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Entrace.prefab using Guid(9000e31c84559634b8f9ce44b2636f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cc0341b014a173f9b429a56f90c217b7') in 0.028849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Gate.prefab
+  artifactKey: Guid(b79b83d11a775684889f7af98f7d3284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Gate.prefab using Guid(b79b83d11a775684889f7af98f7d3284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5871dce9cffff8668371233bd5fc3190') in 0.032655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_gateR.prefab
+  artifactKey: Guid(94bc148fc0d575f4791242dbf5987726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_gateR.prefab using Guid(94bc148fc0d575f4791242dbf5987726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e024f62d2edba7fcb81bec84441fd664') in 0.023830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Scripts/Door.cs
+  artifactKey: Guid(3c572774c6a023847b60b7698271e6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Scripts/Door.cs using Guid(3c572774c6a023847b60b7698271e6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b6fd14392cf06aacafe1a7c6b703c963') in 0.014885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Windmill.prefab
+  artifactKey: Guid(28b03608ec7315044906c829c8f86f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Windmill.prefab using Guid(28b03608ec7315044906c829c8f86f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '03cc1e07f280c4d344e820ac2ba116c4') in 0.049478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Windmill_doorR.fbx
+  artifactKey: Guid(dfe486bd3f295014b824c36ba7858e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Windmill_doorR.fbx using Guid(dfe486bd3f295014b824c36ba7858e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5ea2d6562bde62e802784ca25a3005dc') in 0.022903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_bottle3.prefab
+  artifactKey: Guid(16e3c3a966aa840439bfe8f3d4b9b2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_bottle3.prefab using Guid(16e3c3a966aa840439bfe8f3d4b9b2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '18faca301fc491623173e2fe61c65f34') in 0.022537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/FBXs/Windmill_blade.fbx
+  artifactKey: Guid(32b1f4d4a0d2bd94dbe1d5079e571646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/FBXs/Windmill_blade.fbx using Guid(32b1f4d4a0d2bd94dbe1d5079e571646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f9f983f8e089af3e46c47f9c4f185bcf') in 0.024625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_book2.prefab
+  artifactKey: Guid(bd5d815d5dbfcbb47b8b9b2d2e647d8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_book2.prefab using Guid(bd5d815d5dbfcbb47b8b9b2d2e647d8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f662d7c7da031fdd5fb8d0dcf40da265') in 0.023777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/cart3.prefab
+  artifactKey: Guid(70b6d0c9364cc7a498b08b095cf258ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/cart3.prefab using Guid(70b6d0c9364cc7a498b08b095cf258ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a33330548a6769ddb9d21e1d3fabd4b5') in 0.024722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_bread_2.prefab
+  artifactKey: Guid(cd6cd1d2b5ec21045a4108c1c595639e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FantasyEnvironments/Environments/Town/Prefabs/Food_bread_2.prefab using Guid(cd6cd1d2b5ec21045a4108c1c595639e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b6106743e7745526e627833004923ea0') in 0.024341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
